@@ -14,4 +14,37 @@ body{
 
 background-color: var(--sky-blue);
 font-family: var(--titulo);
+margin: 0;
+}
+
+header{
+background-color: #219ebcff;
+display: flex;
+justify-content: space-around;
+padding: 5px;
+}
+
+.img-logo{
+    width: 30%;
+}
+
+.menu{
+display: flex;
+list-style: none;
+gap: 30px;
+font-size: 20px;
+font-family: var(--titulo);
+text-transform: uppercase;
+
+}
+
+.menu a{
+
+text-decoration: none;
+color:rgb(255, 242, 209);
+}
+
+.menu a:hover{
+color:var(--ut-orange)
+
 }
