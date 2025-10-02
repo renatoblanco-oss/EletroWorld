@@ -48,3 +48,20 @@ color:rgb(255, 242, 209);
 color:var(--ut-orange)
 
 }
+
+.apresentacao{
+    font-family: var(--blue-green);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.apresentacao h2{
+    color: black;
+    font-size: 50px;
+}
+
+.apresentacao p{
+    color: black;
+    font-size: 25px;
+    font-family: var(--texto);
+}
