@@ -65,3 +65,44 @@ color:var(--ut-orange)
     font-size: 25px;
     font-family: var(--texto);
 }
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 00;
+    gap: 5px;
+}
+
+.sobre div{
+    width: 40%;
+    text-align: center;
+}
+
+.sobre-img img{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #000;
+
+}
+ .sobre h2{
+    font-family: var(--titulo);
+    font-size: 40px;
+    color: var(--blue-green);
+    margin-bottom: 15px;
+ }
+
+ .sobre p{
+    font-size: 24px;
+    color: var(--prussian-blue);
+ }
+
+ footer{
+    background-color:var(--blue-green);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 18px;
+ }
