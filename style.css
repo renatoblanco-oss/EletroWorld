@@ -106,3 +106,34 @@ color:var(--ut-orange)
     color: #000;
     font-size: 18px;
  }
+
+ /* produtos */
+.produtos{
+padding: 40px 0;
+text-align: center;
+}
+
+.produtos h2{
+    font-family: var(--titulo);
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.lista-produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto{
+    background-color: aquamarine;
+    width: 27%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.produtos img{
+    width: 100%;
+    border-radius: 10px;
+}
