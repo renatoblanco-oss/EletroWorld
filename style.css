@@ -22,6 +22,7 @@ background-color: #219ebcff;
 display: flex;
 justify-content: space-around;
 padding: 5px;
+align-items: center;
 }
 
 .img-logo{
@@ -47,6 +48,12 @@ color:rgb(255, 242, 209);
 .menu a:hover{
 color:var(--ut-orange)
 
+}
+.capa img{
+    width: 100%;
+    height: auto;
+    display:block;
+    object-fit: cover;
 }
 
 .apresentacao{
@@ -81,7 +88,7 @@ color:var(--ut-orange)
 
 .sobre-img img{
     width: 50%;
-    border-radius: 0 20px 0;
+    border-radius: 0 20px 0 20px;
     box-shadow: 3px 3px 10px #000;
 
 }
@@ -119,7 +126,7 @@ text-align: center;
     margin: 40px 0;
 }
 
-.lista-produto{
+.lista-produtos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -145,7 +152,7 @@ text-align: center;
 
 .produto p{
     font-family: var(--titulo);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
